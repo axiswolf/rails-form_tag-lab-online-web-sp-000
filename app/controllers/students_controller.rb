@@ -8,8 +8,4 @@ class StudentsController < ApplicationController
     @student = Student.find(params[:id])
   end
 
-  def new_student
-    @student = Student.new(params[:student])
-  end
-
 end
